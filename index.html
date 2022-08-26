@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+<div id="links-div">
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>
+    let linksDiv = $('#links-div')[0];
+
+    $.get('./list.txt', (data) => {
+        let lines = data.split("\n")
+        for (let line of lines) {
+            let split = line.split(' ');
+            let name = split[0];
+            let path = `./models/${name}`;
+
+            if (path === '') continue;
+            let href = `./viewer.html?url=${path}`;
+
+            let brNode = document.createElement("br");
+            let a = document.createElement("a");
+            a.setAttribute("href", href);
+            a.innerText = name;
+            linksDiv.appendChild(a);
+            linksDiv.appendChild(brNode);
+        }
+    });
+</script>
+</body>
+<style>
+    a {
+        text-decoration: none;
+    }
+</style>
+</html>

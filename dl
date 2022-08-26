@@ -1,0 +1,10 @@
+#!/bin/bash
+
+line="$1"
+path="`echo "$line" | cut -d' ' -f 1`"
+url="`echo "$line" | cut -d' ' -f 2`"
+
+curl "$url" --create-dirs -o "./models/$path"
+[ $? != 0 ] && echo "$path" >> error
+
+echo "$path --- $url"
