@@ -15,6 +15,7 @@ https://storage.googleapis.com/ar-answers-in-search-models/static/GoldenEagle/mo
 https://storage.googleapis.com/ar-answers-in-search-models/static/GoldenRetriever/model.glb
 https://storage.googleapis.com/ar-answers-in-search-models/static/GreatWhiteShark/model.glb
 https://storage.googleapis.com/ar-answers-in-search-models/static/GreenSeaTurtle/model.glb
+https://storage.googleapis.com/ar-answers-in-search-models/static/LabradorRetriever/model.glb
 https://storage.googleapis.com/ar-answers-in-search-models/static/Lion/model.glb
 https://storage.googleapis.com/ar-answers-in-search-models/static/Macaw/model.glb
 https://storage.googleapis.com/ar-answers-in-search-models/static/MallardDuck/model.glb
