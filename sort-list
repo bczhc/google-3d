@@ -1,4 +1,3 @@
 #!/bin/bash
 
-cat list.txt | sort > tmp
-mv tmp list.txt
+cat list.txt | sort | sponge list.txt

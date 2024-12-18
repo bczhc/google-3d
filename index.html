@@ -11,13 +11,18 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script>
+    function path_from_url(url) {
+        let prefix = 'ar-answers-in-search-models/static/';
+        let index = url.indexOf(prefix);
+        return url.substring(index + prefix.length);
+    }
+
     let linksDiv = $('#links-div')[0];
 
     $.get('./list.txt', (data) => {
         let lines = data.split("\n")
         for (let line of lines) {
-            let split = line.split(' ');
-            let name = split[0];
+            let name = path_from_url(line);
             let path = `./models/${name}`;
 
             if (path === '') continue;

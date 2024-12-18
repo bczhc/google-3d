@@ -2,11 +2,13 @@
 
 set -e
 
-line="$1"
-path="`echo "$line" | cut -d' ' -f 1`"
-url="`echo "$line" | cut -d' ' -f 2`"
+function path_from_url() {
+    echo "$1" | rg '^.*ar-answers-in-search-models/static/(.*)$' -r '$1'
+}
 
-out_path=models/"$path"
+url="$1"
+model_path="$(path_from_url "$url")"
+out_path=models/"$model_path"
 
 if [ -f "$out_path" ]; then
     exit 0
@@ -15,6 +17,6 @@ fi
 valid_glb=1
 curl "$url" --create-dirs -o "$out_path" || valid_glb=0
 file "$out_path" | grep 'glTF binary model' || valid_glb=0
-[ $valid_glb -eq 0 ] && echo "$path" >> errors && rm -f "$out_path" 
+[ $valid_glb -eq 0 ] && echo "$path" >> errors && rm -f "$out_path"
 
 echo "$url"
