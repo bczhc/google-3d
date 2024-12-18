@@ -150,3 +150,4 @@ https://storage.googleapis.com/ar-answers-in-search-models/static/insects/stag_b
 https://storage.googleapis.com/ar-answers-in-search-models/static/insects/swallowtail_butterfly/model.glb
 https://storage.googleapis.com/ar-answers-in-search-models/static/insects/walkers_cicada/model.glb
 https://storage.googleapis.com/ar-answers-in-search-models/static/mythical/Dragon/Dragon.glb
+https://storage.googleapis.com/ar-answers-in-search-models/static/mythical/Unicorn/Unicorn.glb
