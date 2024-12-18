@@ -82,7 +82,15 @@ cats/Russianblue/Russianblue.glb https://storage.googleapis.com/ar-answers-in-se
 cats/ScottishFold/ScottishFold.glb https://storage.googleapis.com/ar-answers-in-search-models/static/cats/ScottishFold/ScottishFold.glb
 cats/Siamese/Siamese.glb https://storage.googleapis.com/ar-answers-in-search-models/static/cats/Siamese/Siamese.glb
 cats/Sphynx/Sphynx.glb https://storage.googleapis.com/ar-answers-in-search-models/static/cats/Sphynx/Sphynx.glb
+dinos/Brachiosaur.glb https://storage.googleapis.com/ar-answers-in-search-models/static/dinos/Brachiosaur.glb
+dinos/Dilophosa.glb https://storage.googleapis.com/ar-answers-in-search-models/static/dinos/Dilophosa.glb
+dinos/Parasaurolophus.glb https://storage.googleapis.com/ar-answers-in-search-models/static/dinos/Parasaurolophus.glb
+dinos/Pteranodon.glb https://storage.googleapis.com/ar-answers-in-search-models/static/dinos/Pteranodon.glb
+dinos/Spinosaurus.glb https://storage.googleapis.com/ar-answers-in-search-models/static/dinos/Spinosaurus.glb
+dinos/Stegosaurus.glb https://storage.googleapis.com/ar-answers-in-search-models/static/dinos/Stegosaurus.glb
+dinos/Triceratop.glb https://storage.googleapis.com/ar-answers-in-search-models/static/dinos/Triceratop.glb
 dinos/Tyrannosa.glb https://storage.googleapis.com/ar-answers-in-search-models/static/dinos/Tyrannosa.glb
+dinos/Velociraptor.glb https://storage.googleapis.com/ar-answers-in-search-models/static/dinos/Velociraptor.glb
 dogs/Akita/Akita.glb https://storage.googleapis.com/ar-answers-in-search-models/static/dogs/Akita/Akita.glb
 dogs/AustralianShepherd/AustralianShepherd.glb https://storage.googleapis.com/ar-answers-in-search-models/static/dogs/AustralianShepherd/AustralianShepherd.glb
 dogs/Beagle/Beagle.glb https://storage.googleapis.com/ar-answers-in-search-models/static/dogs/Beagle/Beagle.glb

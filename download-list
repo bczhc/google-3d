@@ -1,0 +1,5 @@
+#!/bin/bash
+
+jobs=1
+
+cat list.txt | xargs -d\\n -n1 -P$jobs ./dl

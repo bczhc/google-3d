@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cat list.txt | sort > tmp
+mv tmp list.txt
