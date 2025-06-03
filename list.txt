@@ -83,6 +83,7 @@ https://storage.googleapis.com/ar-answers-in-search-models/static/cats/Russianbl
 https://storage.googleapis.com/ar-answers-in-search-models/static/cats/ScottishFold/ScottishFold.glb
 https://storage.googleapis.com/ar-answers-in-search-models/static/cats/Siamese/Siamese.glb
 https://storage.googleapis.com/ar-answers-in-search-models/static/cats/Sphynx/Sphynx.glb
+https://storage.googleapis.com/ar-answers-in-search-models/static/dinos/Ankylosaur.glb
 https://storage.googleapis.com/ar-answers-in-search-models/static/dinos/Brachiosaur.glb
 https://storage.googleapis.com/ar-answers-in-search-models/static/dinos/Dilophosa.glb
 https://storage.googleapis.com/ar-answers-in-search-models/static/dinos/Parasaurolophus.glb
